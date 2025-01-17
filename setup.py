@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='34400_multimeter',  # Name deines Pakets
-    version='0.1.0',            # Versionsnummer
+    version='0.1.1',            # Versionsnummer
     packages=find_packages(),   # Alle Pakete finden (in diesem Fall multimeter_control)
     install_requires=[          # Abhängigkeiten
         'pyvisa', 

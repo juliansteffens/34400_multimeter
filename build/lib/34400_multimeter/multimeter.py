@@ -3,13 +3,19 @@ import csv
 
 # Ressourcen-Manager initialisieren
 rm = pyvisa.ResourceManager()
+visaID = 'USB0::0x0957::0x0618::TW48100045::0::INSTR' #insert your device ID from get_visa_id()
+
 
 # Verfügbare Ressourcen auflisten
 def get_visa_id():
-    print("Verfügbare Ressourcen:", rm.list_resources())
+    print(rm.list_resources())
+
 
 # Verbindung zum Multimeter herstellen (ersetze die Adresse mit deiner tatsächlichen Adresse)
-multimeter = rm.open_resource('USB0::0x0957::0x0607::MY12345678::INSTR')
+def make_connection():
+    global multimeter
+    multimeter = rm.open_resource(visaID)
+
 
 # Geräte-Identifikation abfragen
 def get_id():
@@ -335,5 +341,9 @@ def check_for_alarms():
     multimeter.write('SYST:EVEN:STAT?')
     status = multimeter.read()
     print(f"Alarmstatus: {status}")
+
+
+visaID = get_visa_id()
+
 
 
