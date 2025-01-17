@@ -1,0 +1,5 @@
+pyvisa>=1.11.0  # Die Version, die du in deinem Projekt verwendest
+    #pip install pyvisa
+
+visa
+    #pip install visa

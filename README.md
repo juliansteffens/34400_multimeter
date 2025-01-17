@@ -1,2 +1,10 @@
-# 34400_multimeter
-Python package for Agilent 34400 series measurement devices
+# Multimeter Control
+
+This python package provides an API for controlling Agilent 34400 series measurement devices through the pyVISA package
+
+## Installation
+
+For installing this package run the following command:
+
+```bash
+pip install 34400_multimeter
