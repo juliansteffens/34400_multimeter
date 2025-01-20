@@ -1,7 +1,7 @@
 README.md
 setup.py
-34400multimeter/__init__.py
-34400multimeter/multimeter.py
+agilent34400multimeter/__init__.py
+agilent34400multimeter/multimeter.py
 agilent34400multimeter.egg-info/PKG-INFO
 agilent34400multimeter.egg-info/SOURCES.txt
 agilent34400multimeter.egg-info/dependency_links.txt
