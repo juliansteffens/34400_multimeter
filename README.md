@@ -7,4 +7,4 @@ This python package provides an API for controlling Agilent 34400 series measure
 For installing this package run the following command:
 
 ```bash
-pip install 34400_multimeter
+pip install agilent34400multimeter

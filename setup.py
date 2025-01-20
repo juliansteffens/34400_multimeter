@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='34400_multimeter',  # Name deines Pakets
-    version='0.1.1',            # Versionsnummer
+    name='agilent34400multimeter',  # Name deines Pakets
+    version='0.1.2',            # Versionsnummer
     packages=find_packages(),   # Alle Pakete finden (in diesem Fall multimeter_control)
     install_requires=[          # Abhängigkeiten
         'pyvisa', 
@@ -13,7 +13,7 @@ setup(
     long_description_content_type='text/markdown',  # Format der README-Datei
     author='Julian Steffens, Robin Binger',
     author_email='juliansf@mail.uni-paderborn.de',
-    url='https://github.com/juliansteffens/34400_multimeter',  # GitHub-Repository-Link
+    url='https://github.com/juliansteffens/agilent34400multimeter',  # GitHub-Repository-Link
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
