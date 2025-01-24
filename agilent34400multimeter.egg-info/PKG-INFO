@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
 Name: agilent34400multimeter
-Version: 0.1.3
+Version: 0.1.4
 Summary: Python API for controlling Agilent 34400 series measurement devices
 Home-page: https://github.com/juliansteffens/agilent34400multimeter
 Author: Julian Steffens, Robin Binger
